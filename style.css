@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+p{
+    font-size: 18px;
+}
+body{
+    background-color: rgb(13, 13, 34);
+    ;
+}
+
+.body-slimer{
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+
+.header{
+    background-color: rgba(2, 1, 1, 0.959);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-box{
+    background-color: rgb(10, 133, 117);
+    width: 95%;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    
+}
+
+.date-time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.search-box{
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+}
+
+input{
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    background-color: rgb(235, 226, 226);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.city-country{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+}
+
+.temp{
+    margin: 22px 0;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    gap: 2px;
+}
+
+
+.temp h1{
+    color: white;
+    font-size: 85px;
+}
+
+.weather-humadity{
+    margin-top: 15px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.weather-humadity p{
+    text-align: center;
+}
+
+.error{
+    background-color: rgb(10, 133, 117);
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    padding: 10px 0 0 30px;
+    display: none;
+}
+
+@media (max-width : 500px) {
+    body{
+        background-color: white;
+    }
+}

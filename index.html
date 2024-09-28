@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/f733ee0919.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="body-slimer">
+    <h3 class="header">Weather Bro</h3>
+    <div class="main-box">
+    <div class="date-time">
+        <p class="date"> 28 Sep, Sat</p>
+        <p class="time">10:30:45</p>
+    </div><hr>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search For Your City">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+
+    <div class="city-country">    
+        <p class="city"></p>
+        <p class="country"></p>
+    </div>
+
+    <div class="temp">
+        <!-- <img src="images/therm.png" alt="img" class="therm-img"> -->
+        <h1></h1>
+    </div>
+
+    <div class="weather-humadity">
+        <div class="weather">
+            <p class="weather-key"><i class="fa-solid fa-cloud"></i> Weather</p>
+            <p class="weather-value">Sunny</p>
+        </div>
+
+        <div class="feels">
+            <p class="feels-key"> <i class="fa-solid fa-temperature-three-quarters"></i> Feels Like</p>
+            <p class="feels-value">35°</p>
+        </div>
+    </div>
+
+    <div class="error">
+        <h1><i class="fa-solid fa-face-sad-tear"></i></h1>
+        <h3>Sorry! Invalid City Name</h3>
+    </div>
+
+    </div> <!--  //main-box -->
+
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
