@@ -1,3 +1,5 @@
+alert(45)
+
 // Date Output here
 let  dateOutput = document.querySelector(".date")
 let dayList =["Sun", "Mon", "Tue", "Wed","Thu", "Fri", "Sat"]
