@@ -64,7 +64,7 @@ let apiKey = "&APPID=" +"fa45244ecec24c4b733abb9cb8e97665"
 async function getData(city){
 
 let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
-    let newUrl = `https://api.openweathermap.org/data/2.5/weather?q=London`;
+    let newUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric`;
 
 
     let response = await fetch(newUrl+apiKey);
